@@ -379,6 +379,13 @@ FetchContent_Declare(
     GIT_TAG VER-2-13-2
     GIT_SHALLOW TRUE
 )
+# Disable all optional freetype dependencies so it links fully statically
+# and does not pick up Strawberry Perl's libpng/zlib/bzip2/harfbuzz DLLs.
+set(FT_DISABLE_ZLIB TRUE CACHE BOOL "" FORCE)
+set(FT_DISABLE_BZIP2 TRUE CACHE BOOL "" FORCE)
+set(FT_DISABLE_PNG TRUE CACHE BOOL "" FORCE)
+set(FT_DISABLE_HARFBUZZ TRUE CACHE BOOL "" FORCE)
+set(FT_DISABLE_BROTLI TRUE CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(freetype)
 target_link_libraries(${PROJECT_NAME} PRIVATE freetype)
 
