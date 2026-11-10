@@ -51,7 +51,7 @@ inline ImVec4 k_bg_popup{13.0f / 255.0f, 13.0f / 255.0f, 18.0f / 255.0f, 0.78f};
 
 inline ImVec4 k_bg_hover{1.0f, 1.0f, 1.0f, 0.08f};
 
-inline ImVec4 k_accent{124.0f / 255.0f, 58.0f / 255.0f, 237.0f / 255.0f, 1.0f};
+inline ImVec4 k_accent{255.0f / 255.0f, 107.0f / 255.0f, 0.0f / 255.0f, 1.0f};
 
 inline ImVec4 k_text_main{248.0f / 255.0f, 248.0f / 255.0f, 242.0f / 255.0f, 1.0f};
 

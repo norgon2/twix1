@@ -69,7 +69,7 @@ resolved_locations resolve_current_user() noexcept
             result.error = static_cast<std::uint32_t>(error.value());
             return result;
         }
-        result.destination = locations::under(parent / L"vesta");
+        result.destination = locations::under(parent / L"twix");
     }
     catch (...)
     {

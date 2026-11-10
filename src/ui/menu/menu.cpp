@@ -224,7 +224,7 @@ void menu_t::draw_sidebar()
     const auto* brand = render::fonts().menu_brand_30;
     if (brand && brand->im_font)
     {
-        constexpr auto text = std::string_view{"VESTA"};
+        constexpr auto text = std::string_view{"TWIX"};
         const auto brand_size = brand->font_size * 1.25f;
         float width{};
         for (const auto c : text)

@@ -26,7 +26,7 @@ endif()
 set(VESTA_IMGUI_DIR ${imgui_SOURCE_DIR})
 
 if(NOT DEFINED VESTA_OUTPUT_NAME)
-    set(VESTA_OUTPUT_NAME "vesta")
+    set(VESTA_OUTPUT_NAME "Twix")
 endif()
 
 set(CMAKE_CXX_STANDARD 23)

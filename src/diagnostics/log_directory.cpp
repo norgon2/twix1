@@ -9,6 +9,6 @@ std::filesystem::path default_logs_directory()
     const DWORD length = ::GetTempPathW(static_cast<DWORD>(std::size(buffer)), buffer);
     if (length == 0 || length >= std::size(buffer))
         return {};
-    return std::filesystem::path(buffer) / L"vesta" / L"logs";
+    return std::filesystem::path(buffer) / L"twix" / L"logs";
 }
 } // namespace diagnostics

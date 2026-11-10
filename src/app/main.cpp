@@ -31,7 +31,7 @@ int fail_startup(app::startup_failure failure)
     message += L"\n\n";
     message += text.action;
     message += L"\n\nDetails: %TEMP%\\vesta\\logs";
-    ::MessageBoxW(nullptr, message.c_str(), L"Vesta", MB_OK | MB_ICONERROR);
+    ::MessageBoxW(nullptr, message.c_str(), L"Twix", MB_OK | MB_ICONERROR);
     return 1;
 }
 
